@@ -21,7 +21,7 @@ for jmeno in body:
     else:
         prospech[jmeno] = "pass"
         
-print(prospech)
+print(prospech) 
 
 
 #Výsledný slovník ulož jako JSON do souboru prospech.json.
