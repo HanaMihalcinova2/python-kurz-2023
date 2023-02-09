@@ -1,8 +1,10 @@
+
+
 #Zadání
 #Soubor body.json je JSON, který obsahuje informace o získaných bodech z písemky.
- 
+
 #Soubor si ulož a načti do slovníku.
- 
+
 import json
 with open('body.json', encoding='utf-8') as soubor:
     #print(type(soubor))
