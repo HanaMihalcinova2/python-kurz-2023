@@ -14,10 +14,12 @@ print(body)
 #print(body.keys())
 #print(body.values())
 
-x = body.keys()
-print(x)
- 
 for x,y in body.items():
-    print(f' {x}  {y} ')
+    print(f' {x} :   {y} ')
 
 #Výsledný slovník ulož jako JSON do souboru prospech.json.
+
+import json
+prospech = body #{'po': 8, 'ut': 7, 'st': 6, 'ct': 7, 'pa': 8}
+with open('prospech.json', mode='w', encoding='utf-8') as soubor:
+    json.dump(prospech, soubor)
