@@ -23,9 +23,7 @@ for jmeno in body:
         
 print(prospech) 
 
-
 #Výsledný slovník ulož jako JSON do souboru prospech.json.
-
 
 with open('prospech.json', mode='w', encoding='utf-8') as soubor:
     json.dump(prospech, soubor, ensure_ascii=False, indent=4)
