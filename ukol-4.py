@@ -1,6 +1,6 @@
 # ukol-04
 
-## Zadání
+## Zadání 
 # Uvažuj, že píšeš jednoduchou aplikaci pro zasílání SMS zpráv. Napiš program, který provede následující činnosti:
 
 # 1. Zeptá se uživatele na číslo, kam chce zprávu zaslat a ověří, že číslo má správný formát.
