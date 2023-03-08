@@ -40,7 +40,5 @@ print(Peugeot.get_info())
 print(Skoda.get_info()) 
 
 # Nakonec do programu (mimo třídu) napiš dotaz na uživatele, jakou značku si uživatel přeje půjčit. Uživatel může zadávat hodnoty Peugeot nebo Škoda. 
-
 # Jakmile si uživatel vybere značku, vypiš informaci o vozidle pomocí funkce get_info() a následně použij funkci pujc_auto().
-
 # Otestuj, že program nedovolí půjčit stejné auto dvakrát.
