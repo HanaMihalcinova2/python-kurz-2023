@@ -23,7 +23,7 @@ class Auto:  # definice tridy
         self.typ_vozidla = typ_vozidla
         self.najete_km = najete_km
         self.dostupnost = True
-    def pujc_auto(self):
+    def pujc_auto(self): 
         if self.dostupnost == True:
             return f"Potvrzuji zapůjčení vozidla"
         else:
@@ -37,8 +37,10 @@ Peugeot = Auto("4A2 3020","Peugot 403 Cabrio", 47534)  # objekt
 Skoda = Auto("1P3 4747", "Skoda Octavia", 41253)  # objekt
 
 print(Peugeot.get_info())
-print(Skoda.get_info())
+print(Skoda.get_info()) 
 
 # Nakonec do programu (mimo třídu) napiš dotaz na uživatele, jakou značku si uživatel přeje půjčit. Uživatel může zadávat hodnoty Peugeot nebo Škoda. 
+
 # Jakmile si uživatel vybere značku, vypiš informaci o vozidle pomocí funkce get_info() a následně použij funkci pujc_auto().
+
 # Otestuj, že program nedovolí půjčit stejné auto dvakrát.
